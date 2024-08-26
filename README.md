@@ -1,5 +1,5 @@
 # this-is-an-evolving-artwork
-Code used by "This is an evolving artwork" - OBJKT 856725 on Teia
+Code used by "This is an evolving artwork" - [OBJKT 856725](https://teia.art/objkt/856725) on Teia
 
 
 ## To mint a version controllec "evolving" artwork:
