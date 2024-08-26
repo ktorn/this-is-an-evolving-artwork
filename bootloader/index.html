@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>This may be an evolving artwork - by ktorn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content="thumbnail.png" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <div id="errorOverlay">
+        <div id="errorMenu">
+            <h2>Error Occurred</h2>
+            <p>Please update the API URLs:</p>
+            <label for="tzktApi">TzKT API URL:</label>
+            <input type="text" id="tzktApi" value="https://api.tzkt.io"><br><br>
+            <label for="ipfsGateway">IPFS Gateway URL:</label>
+            <input type="text" id="ipfsGateway" value="https://cache.teia.rocks/ipfs/"><br><br>
+            <button onclick="retryRedirect()">Retry</button>
+        </div>
+    </div>
+
+  </body>
+</html>
